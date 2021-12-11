@@ -13,4 +13,9 @@ app.get('/hello', (req, res) => {
     res.send('Hello World!');
 });
 
+
+const mongoose = require('mongoose');
+const MONGODB_URL = 'mongodb+srv://web-dev-project:web-dev-project@cluster0.zboy4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+mongoose.connect(MONGODB_URL);
+
 app.listen(process.env.PORT || 4001);
