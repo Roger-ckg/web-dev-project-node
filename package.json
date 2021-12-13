@@ -17,7 +17,19 @@
   },
   "homepage": "https://github.com/Roger-ckg/web-dev-project-node#readme",
   "dependencies": {
+<<<<<<< HEAD
     "express": "^4.17.1",
     "mongoose": "^6.1.1"
+=======
+<<<<<<< HEAD
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.1.1",
+    "nodemon": "^2.0.15"
+=======
+    "express": "^4.17.1",
+    "mongoose": "^6.1.1"
+>>>>>>> 9d55b4c0f3de393cec31c20513f4f34d3fb050a0
+>>>>>>> bdcdb473a49a3c6862f3e147af88dbd728e3d343
   }
 }
